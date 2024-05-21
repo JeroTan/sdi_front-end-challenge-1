@@ -45,7 +45,7 @@ The apis are blocked by CORS. Good thing I have 2 solution for this one. So what
 - You may notice that some configuration like in webpack.config.js have comments. Those comments are written by me long ago so that installing react from scratch is streamline.
 
 - The resources files is located at public/storage. I assume that this is supposedly an image from backend storage so I named it public/storage.
-    * I also found it that the "tmsph-logo.jpg" is missing in resources although it is available in get request of https://tmsph-sdi-challenges.pages.dev/challenges/authors.json. What I did is find a logo online that fits with the brand.
+    * I also notice that the "tmsph-logo.jpg" is missing in resources although it is available in get request of https://tmsph-sdi-challenges.pages.dev/challenges/authors.json. What I did is find a logo online that fits with the brand.
 
 - This Project has basic responsive layout to some extent. Though if I have time maybe, I will lookout for more screen layouts such as landscape mobile screen. 
     
