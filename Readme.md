@@ -8,16 +8,17 @@ Node.JS Version:    v20.13.1
 
 
 ### Overview:
-    JS framework: React
-    CSS framework: TailwindCSS
-    Bundler: Webpack
+- JS framework: React
+- CSS framework: TailwindCSS
+- Bundler: Webpack
     
 
 ### For the project to start use the command:
+To install all the project dependencies.
 ```
 npm install 
 ```
-To install all the project dependencies.
+Then use the,
 
 ```
 npm run dev
