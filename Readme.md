@@ -14,11 +14,16 @@ Node.JS Version:    v20.13.1
     
 
 ### For the project to start use the command:
-> npm install 
+```
+npm install 
+```
 To install all the project dependencies.
 
-> npm run dev
+```
+npm run dev
+```
 Now the project is available at   <>>>>>>      http://localhost:8000      <<<<<<>
+
 You may also use all the files in public directory but this is not recommended if you don't have a running server so the above command is a must.
 Why? Images will not be loaded if you just grab the index.html.
 
