@@ -36,9 +36,19 @@ The apis are blocked by CORS. Good thing I have 2 solution for this one. So what
 2. Copy and Create a shortcut somewhere
 3. Right Click the shortcut and select properties
 4. Find the target field and insert this at the end of text --disable-web-security --user-data-dir="C:/ChromeDevSession"
-            For example "C:/Something/Files/chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession"
-            //Same thing for CLI:
+    - For example 
+        ```
+            "C:/Something/Files/chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession"
+        ```
+    - Same thing for CLI:
+        ```
             "chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession"
+        ```
+        or
+        ```
+            start "chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession"
+        ```
+
 
 
 
