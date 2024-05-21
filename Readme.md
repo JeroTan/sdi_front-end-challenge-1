@@ -19,7 +19,7 @@ Node.JS Version:    v20.13.1
         Why? Images will not be loaded if you just grab the index.html.
 
 
-###IMPORTANT!!!!!
+### IMPORTANT!!!!!
 The apis are blocked by CORS. Good thing I have 2 solution for this one. So what I did is I created a copy of json in src/Utilities/Api.jsx if ever the fetching of data failed. The second is hacking your browser to bypass cors restriction, however this will lead you to vulnerable browsing experience. With this in mind, I use chrome for this demo. There is a flag to disable cors completely for the sole purpose of this test (BUT BE SURE TO PUT IT BACK)
     - Go to your chrome icon or exe file which is usually in programFiles in your C: //IF you know the CLI or CMD then just go to he exe file of chrome by using cd command or such
     - Copy and Create a shortcut somewhere
