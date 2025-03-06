@@ -174,7 +174,6 @@ function  ViewNews(props){
                             borderStyle: "solid",
                             borderWidth: "0 0 15px 15px",
                             transform: "rotate(0deg)",
-
                         }}></div>
                     </div>
                     <div className="absolute translate-y-[-50%] sm:w-32 w-28 aspect-square flex justify-center items-center">
@@ -207,17 +206,21 @@ function  ViewNews(props){
             {/*Description*/}
             <div className="mt-5 sm:px-4 px-2">
                 
-                {author?<>
+                {author ? <>
                     <h6 className="text-blue-500 tracking-wide font-semibold">{author}</h6>
-                </>:<>
+                </> : <>
                     <div className="w-36 h-4 rounded animate-pulse bg-gray-400"></div>
                 </>}
                 
-                <h1 className=" text-2xl font-bold ">{title}</h1>
+                <h1 className=" text-2xl font-bold " dangerouslySetInnerHTML={{__html:title}}></h1>
 
-                <p className="my-6"> {body}</p>
+                <p className="my-6" dangerouslySetInnerHTML={{ __html: body }}></p>
 
-                <div><a aria-label="link to article" className=" underline text-blue-400 uppercase font-bold underline-offset-4 cursor-pointer hover:text-blue-600">Read Article</a></div>
+                <div>
+                    <a aria-label="link to article" className=" underline text-blue-400 uppercase font-bold underline-offset-4 cursor-pointer hover:text-blue-600">
+                        Read Article
+                    </a>
+                </div>
             </div>
 
             <div className=" py-5"></div>
